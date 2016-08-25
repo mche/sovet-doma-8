@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{Title}}</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+    <link rel='shortcut icon' type='image/x-icon' href='/images/ива122.ico' />
+    <link rel='shortcut icon' type='image/png' href='/images/ива121.png' />
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-lg-4" style="padding: 20px 0px; "><a href="/"><img src="/images/ивы1.jpg" style="width:100%; border: 1px solid #BEBEBE;"/></a></div>
+        <div class="col-lg-8">
+            <h1 style="background-color:#E2F2E2; padding: 0.3em;">Сайт с информацией для жильцов дома 8, ул. К. Маркса</h1>
+            <p></p>
+            <div class="primary-nav">
+                {{PrimaryNavigation}}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class000="row">
+            <div class="col-lg-8">{{Body}}</div>
+            <div class="col-lg-4" style000="padding: 2em 0px;  border:1px dotted; background-color: #3C3C64;">
+                <div class="secondary-nav">
+                    {{Navigation}}
+                </div>
+                <div class="page-nav">
+                    {{PageNav}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--{{PrimaryNavigation}} - Renders an unordered list of the top level pages / sections including the home page.-->
+    <!--{{SecondaryNavigation}} - Renders an unordered list of ancestors, siblings and child pages.-->
+    <!--{{Navigation}} - Renders an unordered list of all pages. Useful for a sitemap page-->
+    <!--{{Nav}}-->
+    
+</body>
+</html>
